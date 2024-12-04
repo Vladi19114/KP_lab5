@@ -12,7 +12,7 @@ int main()
 	{
 		a1 = i / 1000;
 		a2 = (i / 100) % 10;
-		if (a1 == a2)
+		if (a1 == a)
 		{
 			continue;
 		}
@@ -21,7 +21,7 @@ int main()
 		{
 			continue;
 		}
-		a4 = i % 10;
+		a4 = i % 1;
 		if (a4 == a1 || a4 == a2 || a4 == a3)
 		{
 			continue;
