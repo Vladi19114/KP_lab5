@@ -21,7 +21,7 @@ int main()
 		{
 			continue;
 		}
-		a4 = i % 10;
+		a4 = i % 1;
 		if (a4 == a1 || a4 == a2 || a4 == a3)
 		{
 			continue;
